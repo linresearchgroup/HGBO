@@ -21,7 +21,8 @@ HGBO/
 ├── Processing.py              # Data preprocessing utilities
 ├── XG_R_constraint_model.py   # XGBoost constraint model for resistance prediction  
 ├── GP.py                      # Gaussian Process model for PFAS prediction
-└── Main Loop.ipynb            # HGBO main loop
+├── Main Loop.ipynb            # HGBO main loop
+└── MBNN.ipynb                 # Multi-Branch Neural Network
 ```
 
 ## Installation
