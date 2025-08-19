@@ -74,10 +74,9 @@ Execute the Human-Guided Bayesian Optimization process:
 - Loads pre-trained GP and XGBoost models
 - Implements interactive experimental design loop
 - Generates constraint-aware experimental recommendations
-- Collects human feedback and scores
-- Updates models based on new experimental data
 - Provides real-time visualizations including sampling plots and GP heatmaps
-- Adapts acquisition function based on user preferences
+- Collects human feedback and scores
+- Adapts acquisition function based on user guidance
 
 ## Core Components
 
