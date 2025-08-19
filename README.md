@@ -1,4 +1,5 @@
-# PFAS Soil Treatment Optimization using HGBO (Human-Guided Bayesian Optimization)
+# Accelerate Flash Removal of PFAS from Soil by Human-guided Bayesian Optimization and Interpretable Machine Learning
+
 
 A comprehensive machine learning pipeline for PFAS (Per- and polyfluoroalkyl substances) soil treatment optimization using Gaussian Process Regression, XGBoost constraint models, and Human-Guided Bayesian Optimization for intelligent experimental design.
 
