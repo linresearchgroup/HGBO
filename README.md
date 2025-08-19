@@ -10,8 +10,7 @@ This project provides an integrated solution for PFAS soil treatment research wi
 - **MBNN (Multi-Branch Neural Network)** for PFAS treatment efficiency prediction using experimental, chemical, and molecular graph features
 - **HGBO (Human-Guided Bayesian Optimization)** for intelligent experimental design and next-point recommendation
 - **Model Interpretability** using SHAP analysis and Partial Dependence Plots
-- **Professional Visualizations** with real-time heatmaps and sampling visualization
-- **Clean, modular architecture** ready for research applications
+- **Visualizations** with real-time heatmaps and sampling visualization
 
 ## Project Structure
 
@@ -107,7 +106,7 @@ The GP.py module implements advanced Gaussian Process regression:
 - Uncertainty quantification for informed decision making
 - SHAP-based model interpretability analysis
 - 1D and 2D partial dependence plot generation
-- Professional visualization capabilities
+- Visualization capabilities
 
 ### Multi-Branch Neural Network (MBNN)
 
@@ -150,38 +149,6 @@ The Main Loop.ipynb implements the Human-Guided Bayesian Optimization system:
 - Feature importance ranking across different models
 - Interactive visualizations supporting model exploration
 
-### Professional Visualizations
-- Publication-ready plots with consistent styling
-- Real-time heatmaps displaying GP predictions and uncertainty
-- Interactive sampling visualization using PCA projections
-- Automated plot saving with systematic naming conventions
-
-## Model Performance
-
-### Gaussian Process Model
-- Training R²: Typically exceeds 0.95
-- Testing R²: Generally above 0.85
-- RMSE: Usually below 0.05 on log scale
-- Convergence: Typically achieved within 10 optimizer restarts
-
-### XGBoost Constraint Model  
-- Training R²: Usually exceeds 0.90
-- Testing R²: Generally above 0.85
-- Mean Absolute Error: Typically below 0.5 Ohms
-- Feature importance: Material Name and Weight ratio identified as key predictors
-
-### Multi-Branch Neural Network (MBNN)
-- Training R²: Typically exceeds 0.85
-- Testing R²: Generally above 0.80
-- RMSE: Usually below 0.15 for efficiency prediction
-- Branch contribution: Graph structure features show highest importance, followed by experimental and chemical features
-- Model convergence: Achieved within 200-500 epochs with early stopping
-
-### HGBO Performance
-- Convergence: Typically requires 5-10 iterations to identify optimal regions
-- Constraint satisfaction: Over 95% of recommended points satisfy resistance constraints
-- User satisfaction: Adaptive response to feedback scores ranging from 0-3
-
 ## Data Format
 
 ### Input Features
@@ -204,32 +171,9 @@ The GP model supports various kernel modifications including length scale adjust
 ### Acquisition Function
 The HGBO system allows customization of the acquisition function including different combinations of exploitation and exploration terms.
 
-### Visualization Settings
-All visualizations support customization including font families, DPI settings, color schemes, and plot dimensions.
-
-## License
-
-This project is available under the MIT License, supporting open source research and development.
-
 ## Contact
 
-For questions, issues, or research collaboration opportunities, please use GitHub issues for bug reports and GitHub Discussions for general questions.
-
-## Acknowledgments
-
-This work builds upon excellent open source tools including scikit-learn for machine learning implementations, XGBoost for gradient boosting, SHAP for model interpretability, and matplotlib for visualization capabilities.
-
-## Citation
-
-Researchers using this code should cite the work appropriately, acknowledging the HGBO methodology and the integrated machine learning pipeline for PFAS soil treatment optimization.
-
-## Version History
-
-- v1.0.0: Initial release with GP and XGBoost models
-- v1.1.0: Added Human-Guided Bayesian Optimization loop
-- v1.2.0: Enhanced visualizations and real-time updates
-- v2.0.0: Complete pipeline integration and modularization
-- v2.1.0: Comprehensive documentation and workflow optimization
+For questions, issues, or research collaboration opportunities, please contact Prof. Lin: linjian@missouri.edu
 
 ---
 
