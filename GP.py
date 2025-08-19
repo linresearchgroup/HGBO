@@ -1,20 +1,10 @@
 #!/usr/bin/env python3
 """
-PFAS Content Prediction using Gaussian Process Regression
+PFAS Content Prediction using Gaussian Process Regression for HGBO
 
 This module provides a comprehensive pipeline for predicting PFAS content in soil samples
 using Gaussian Process Regression with enhanced kernels, SHAP interpretability analysis,
 and Partial Dependence Plot (PDP) visualization.
-
-Key Features:
-- Enhanced Gaussian Process regression with custom kernels
-- Model interpretability using SHAP analysis  
-- Partial dependence analysis (1D and 2D)
-- Comprehensive visualization and evaluation tools
-
-Author: PhD Research Project
-Date: 2024
-Purpose: Reproducible research for PFAS content prediction
 """
 
 import numpy as np
